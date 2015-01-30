@@ -14,6 +14,8 @@
 		04582A331A7C4A5A007B35CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04582A321A7C4A5A007B35CC /* Images.xcassets */; };
 		04582A361A7C4A5A007B35CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04582A341A7C4A5A007B35CC /* LaunchScreen.xib */; };
 		04582A421A7C4A5A007B35CC /* PocketDrumLessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04582A411A7C4A5A007B35CC /* PocketDrumLessonTests.m */; };
+		04582A501A7C4E5C007B35CC /* trophy-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04582A4F1A7C4E5C007B35CC /* trophy-50@2x.png */; };
+		04582A521A7C4EAD007B35CC /* elective-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04582A511A7C4EAD007B35CC /* elective-50@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		04582A3B1A7C4A5A007B35CC /* PocketDrumLessonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketDrumLessonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04582A401A7C4A5A007B35CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04582A411A7C4A5A007B35CC /* PocketDrumLessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketDrumLessonTests.m; sourceTree = "<group>"; };
+		04582A4F1A7C4E5C007B35CC /* trophy-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trophy-50@2x.png"; path = "../../../../Downloads/trophy-50@2x.png"; sourceTree = "<group>"; };
+		04582A511A7C4EAD007B35CC /* elective-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "elective-50@2x.png"; path = "../../../../Downloads/elective-50@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		04582A251A7C4A5A007B35CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04582A511A7C4EAD007B35CC /* elective-50@2x.png */,
+				04582A4F1A7C4E5C007B35CC /* trophy-50@2x.png */,
 				04582A261A7C4A5A007B35CC /* Info.plist */,
 				04582A271A7C4A5A007B35CC /* main.m */,
 			);
@@ -200,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04582A311A7C4A5A007B35CC /* Main.storyboard in Resources */,
+				04582A521A7C4EAD007B35CC /* elective-50@2x.png in Resources */,
+				04582A501A7C4E5C007B35CC /* trophy-50@2x.png in Resources */,
 				04582A361A7C4A5A007B35CC /* LaunchScreen.xib in Resources */,
 				04582A331A7C4A5A007B35CC /* Images.xcassets in Resources */,
 			);

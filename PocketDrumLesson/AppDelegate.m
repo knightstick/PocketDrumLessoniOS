@@ -16,7 +16,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UIViewController *tiersViewController = [[UIViewController alloc] init];
+    tiersViewController.title = @"By Tier";
+    tiersViewController.tabBarItem.image = [UIImage imageNamed:@"trophy-50"];
+    UIViewController *typeViewController = [[UIViewController alloc] init];
+    typeViewController.title = @"By Type";
+    typeViewController.tabBarItem.image = [UIImage imageNamed:@"elective-50"];
+
+    
+    tiersViewController.view.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.9];
+    typeViewController.view.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.8];
+
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    [tabBarController setViewControllers:@[tiersViewController, typeViewController]];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
