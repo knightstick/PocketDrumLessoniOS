@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TiersViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,15 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    UIViewController *tiersViewController = [[UIViewController alloc] init];
-    tiersViewController.title = @"By Tier";
-    tiersViewController.tabBarItem.image = [UIImage imageNamed:@"trophy-50"];
+    TiersViewController *tiersViewController = [[TiersViewController alloc] init];
+    
     UIViewController *typeViewController = [[UIViewController alloc] init];
     typeViewController.title = @"By Type";
     typeViewController.tabBarItem.image = [UIImage imageNamed:@"elective-50"];
 
-    
-    tiersViewController.view.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.9];
     typeViewController.view.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.8];
 
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
