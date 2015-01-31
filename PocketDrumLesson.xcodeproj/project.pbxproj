@@ -16,8 +16,10 @@
 		04582A421A7C4A5A007B35CC /* PocketDrumLessonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04582A411A7C4A5A007B35CC /* PocketDrumLessonTests.m */; };
 		04582A501A7C4E5C007B35CC /* trophy-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04582A4F1A7C4E5C007B35CC /* trophy-50@2x.png */; };
 		04582A521A7C4EAD007B35CC /* elective-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04582A511A7C4EAD007B35CC /* elective-50@2x.png */; };
-		04582A5B1A7C5095007B35CC /* TiersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04582A5A1A7C5095007B35CC /* TiersViewController.m */; };
 		04582A611A7C5584007B35CC /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04582A601A7C5584007B35CC /* TypeViewController.m */; };
+		04F82CEA1A7C823400954323 /* TiersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F82CE91A7C823400954323 /* TiersTableViewController.m */; };
+		04F82CED1A7C86D600954323 /* TypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F82CEC1A7C86D600954323 /* TypeTableViewController.m */; };
+		04F82CF01A7C8B3100954323 /* TiersIndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F82CEF1A7C8B3100954323 /* TiersIndexTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +48,14 @@
 		04582A411A7C4A5A007B35CC /* PocketDrumLessonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketDrumLessonTests.m; sourceTree = "<group>"; };
 		04582A4F1A7C4E5C007B35CC /* trophy-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trophy-50@2x.png"; path = "../../../../Downloads/trophy-50@2x.png"; sourceTree = "<group>"; };
 		04582A511A7C4EAD007B35CC /* elective-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "elective-50@2x.png"; path = "../../../../Downloads/elective-50@2x.png"; sourceTree = "<group>"; };
-		04582A591A7C5095007B35CC /* TiersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiersViewController.h; sourceTree = "<group>"; };
-		04582A5A1A7C5095007B35CC /* TiersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiersViewController.m; sourceTree = "<group>"; };
 		04582A5F1A7C5584007B35CC /* TypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
 		04582A601A7C5584007B35CC /* TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
+		04F82CE81A7C823400954323 /* TiersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiersTableViewController.h; sourceTree = "<group>"; };
+		04F82CE91A7C823400954323 /* TiersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiersTableViewController.m; sourceTree = "<group>"; };
+		04F82CEB1A7C86D600954323 /* TypeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeTableViewController.h; sourceTree = "<group>"; };
+		04F82CEC1A7C86D600954323 /* TypeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeTableViewController.m; sourceTree = "<group>"; };
+		04F82CEE1A7C8B3100954323 /* TiersIndexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiersIndexTableViewController.h; sourceTree = "<group>"; };
+		04F82CEF1A7C8B3100954323 /* TiersIndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiersIndexTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +97,14 @@
 		04582A241A7C4A5A007B35CC /* PocketDrumLesson */ = {
 			isa = PBXGroup;
 			children = (
+				04F82CEB1A7C86D600954323 /* TypeTableViewController.h */,
+				04F82CEC1A7C86D600954323 /* TypeTableViewController.m */,
+				04F82CEE1A7C8B3100954323 /* TiersIndexTableViewController.h */,
+				04F82CEF1A7C8B3100954323 /* TiersIndexTableViewController.m */,
+				04F82CE81A7C823400954323 /* TiersTableViewController.h */,
+				04F82CE91A7C823400954323 /* TiersTableViewController.m */,
 				04582A5F1A7C5584007B35CC /* TypeViewController.h */,
 				04582A601A7C5584007B35CC /* TypeViewController.m */,
-				04582A591A7C5095007B35CC /* TiersViewController.h */,
-				04582A5A1A7C5095007B35CC /* TiersViewController.m */,
 				04582A291A7C4A5A007B35CC /* AppDelegate.h */,
 				04582A2A1A7C4A5A007B35CC /* AppDelegate.m */,
 				04582A2C1A7C4A5A007B35CC /* ViewController.h */,
@@ -238,10 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04582A611A7C5584007B35CC /* TypeViewController.m in Sources */,
+				04F82CEA1A7C823400954323 /* TiersTableViewController.m in Sources */,
 				04582A2E1A7C4A5A007B35CC /* ViewController.m in Sources */,
 				04582A2B1A7C4A5A007B35CC /* AppDelegate.m in Sources */,
-				04582A5B1A7C5095007B35CC /* TiersViewController.m in Sources */,
 				04582A281A7C4A5A007B35CC /* main.m in Sources */,
+				04F82CED1A7C86D600954323 /* TypeTableViewController.m in Sources */,
+				04F82CF01A7C8B3100954323 /* TiersIndexTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

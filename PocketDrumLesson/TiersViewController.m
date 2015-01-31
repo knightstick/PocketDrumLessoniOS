@@ -18,8 +18,7 @@
 {
     self = [super init];
     if(self) {
-        self.title = @"By Tiers";
-        self.tabBarItem.image = [UIImage imageNamed:@"trophy-50"];
+
     }
     return self;
 }
@@ -27,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.9];
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "TiersViewController.h"
 #import "TypeViewController.h"
+#import "TiersTableViewController.h"
+#import "TypeTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,12 +19,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    TiersViewController *tiersViewController = [[TiersViewController alloc] init];
-    TypeViewController *typeViewController = [[TypeViewController alloc] init];
-
+    TiersTableViewController *tiersTableViewController = [[TiersTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    tiersTableViewController.tabBarItem.image = [UIImage imageNamed:@"trophy-50"];
+    tiersTableViewController.title = @"By Tiers";
+    UINavigationController *tiersNavController = [[UINavigationController alloc] initWithRootViewController:tiersTableViewController];
+    
+    TypeTableViewController *typeTableViewController = [[TypeTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    typeTableViewController.title = @"By Type";
+    typeTableViewController.tabBarItem.image = [UIImage imageNamed:@"elective-50"];
+    UINavigationController *typeNavController = [[UINavigationController alloc] initWithRootViewController:typeTableViewController];
+    
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
-    [tabBarController setViewControllers:@[tiersViewController, typeViewController]];
+    [tabBarController setViewControllers:@[tiersNavController, typeNavController]];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = tabBarController;
