@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ExercisesIndexTableViewController.h"
 #import "TypeViewController.h"
 #import "TiersTableViewController.h"
 #import "TypeTableViewController.h"
@@ -19,6 +20,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    ExercisesIndexTableViewController *exercisesIndexTVC = [[ExercisesIndexTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    exercisesIndexTVC.tabBarItem.image = [UIImage imageNamed:@"snare_drum-50"];
+    exercisesIndexTVC.title = @"All Exercises";
+    UINavigationController *exercisesIndexNavController = [[UINavigationController alloc] initWithRootViewController:exercisesIndexTVC];
+    
+    
     TiersTableViewController *tiersTableViewController = [[TiersTableViewController alloc] initWithStyle:UITableViewStylePlain];
     tiersTableViewController.tabBarItem.image = [UIImage imageNamed:@"trophy-50"];
     tiersTableViewController.title = @"By Tiers";
@@ -31,7 +38,7 @@
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
-    [tabBarController setViewControllers:@[tiersNavController, typeNavController]];
+    [tabBarController setViewControllers:@[exercisesIndexNavController, tiersNavController, typeNavController]];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = tabBarController;

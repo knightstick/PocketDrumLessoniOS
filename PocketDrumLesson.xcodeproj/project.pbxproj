@@ -17,9 +17,12 @@
 		04582A501A7C4E5C007B35CC /* trophy-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04582A4F1A7C4E5C007B35CC /* trophy-50@2x.png */; };
 		04582A521A7C4EAD007B35CC /* elective-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04582A511A7C4EAD007B35CC /* elective-50@2x.png */; };
 		04582A611A7C5584007B35CC /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04582A601A7C5584007B35CC /* TypeViewController.m */; };
+		04B23C0B1A7DA5080015E383 /* ExercisesIndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B23C0A1A7DA5080015E383 /* ExercisesIndexTableViewController.m */; };
+		04B23C0D1A7DA7BC0015E383 /* snare_drum-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B23C0C1A7DA7BC0015E383 /* snare_drum-50@2x.png */; };
+		04B23C101A7DA8530015E383 /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B23C0F1A7DA8530015E383 /* Exercise.m */; };
+		04B23C131A7DA9450015E383 /* ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B23C121A7DA9450015E383 /* ExerciseViewController.m */; };
 		04F82CEA1A7C823400954323 /* TiersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F82CE91A7C823400954323 /* TiersTableViewController.m */; };
 		04F82CED1A7C86D600954323 /* TypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F82CEC1A7C86D600954323 /* TypeTableViewController.m */; };
-		04F82CF01A7C8B3100954323 /* TiersIndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F82CEF1A7C8B3100954323 /* TiersIndexTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,12 +53,17 @@
 		04582A511A7C4EAD007B35CC /* elective-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "elective-50@2x.png"; path = "../../../../Downloads/elective-50@2x.png"; sourceTree = "<group>"; };
 		04582A5F1A7C5584007B35CC /* TypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
 		04582A601A7C5584007B35CC /* TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
+		04B23C091A7DA5080015E383 /* ExercisesIndexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExercisesIndexTableViewController.h; sourceTree = "<group>"; };
+		04B23C0A1A7DA5080015E383 /* ExercisesIndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExercisesIndexTableViewController.m; sourceTree = "<group>"; };
+		04B23C0C1A7DA7BC0015E383 /* snare_drum-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snare_drum-50@2x.png"; path = "../../../../Downloads/snare_drum-50@2x.png"; sourceTree = "<group>"; };
+		04B23C0E1A7DA8530015E383 /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
+		04B23C0F1A7DA8530015E383 /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
+		04B23C111A7DA9450015E383 /* ExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseViewController.h; sourceTree = "<group>"; };
+		04B23C121A7DA9450015E383 /* ExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseViewController.m; sourceTree = "<group>"; };
 		04F82CE81A7C823400954323 /* TiersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiersTableViewController.h; sourceTree = "<group>"; };
 		04F82CE91A7C823400954323 /* TiersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiersTableViewController.m; sourceTree = "<group>"; };
 		04F82CEB1A7C86D600954323 /* TypeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeTableViewController.h; sourceTree = "<group>"; };
 		04F82CEC1A7C86D600954323 /* TypeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeTableViewController.m; sourceTree = "<group>"; };
-		04F82CEE1A7C8B3100954323 /* TiersIndexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiersIndexTableViewController.h; sourceTree = "<group>"; };
-		04F82CEF1A7C8B3100954323 /* TiersIndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiersIndexTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		04582A241A7C4A5A007B35CC /* PocketDrumLesson */ = {
 			isa = PBXGroup;
 			children = (
-				04F82CEB1A7C86D600954323 /* TypeTableViewController.h */,
-				04F82CEC1A7C86D600954323 /* TypeTableViewController.m */,
-				04F82CEE1A7C8B3100954323 /* TiersIndexTableViewController.h */,
-				04F82CEF1A7C8B3100954323 /* TiersIndexTableViewController.m */,
+				04B23C091A7DA5080015E383 /* ExercisesIndexTableViewController.h */,
+				04B23C0A1A7DA5080015E383 /* ExercisesIndexTableViewController.m */,
+				04B23C0E1A7DA8530015E383 /* Exercise.h */,
+				04B23C0F1A7DA8530015E383 /* Exercise.m */,
+				04B23C111A7DA9450015E383 /* ExerciseViewController.h */,
+				04B23C121A7DA9450015E383 /* ExerciseViewController.m */,
 				04F82CE81A7C823400954323 /* TiersTableViewController.h */,
 				04F82CE91A7C823400954323 /* TiersTableViewController.m */,
+				04F82CEB1A7C86D600954323 /* TypeTableViewController.h */,
+				04F82CEC1A7C86D600954323 /* TypeTableViewController.m */,
 				04582A5F1A7C5584007B35CC /* TypeViewController.h */,
 				04582A601A7C5584007B35CC /* TypeViewController.m */,
 				04582A291A7C4A5A007B35CC /* AppDelegate.h */,
@@ -120,6 +132,7 @@
 		04582A251A7C4A5A007B35CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04B23C0C1A7DA7BC0015E383 /* snare_drum-50@2x.png */,
 				04582A511A7C4EAD007B35CC /* elective-50@2x.png */,
 				04582A4F1A7C4E5C007B35CC /* trophy-50@2x.png */,
 				04582A261A7C4A5A007B35CC /* Info.plist */,
@@ -230,6 +243,7 @@
 				04582A501A7C4E5C007B35CC /* trophy-50@2x.png in Resources */,
 				04582A361A7C4A5A007B35CC /* LaunchScreen.xib in Resources */,
 				04582A331A7C4A5A007B35CC /* Images.xcassets in Resources */,
+				04B23C0D1A7DA7BC0015E383 /* snare_drum-50@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,13 +261,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B23C131A7DA9450015E383 /* ExerciseViewController.m in Sources */,
+				04B23C0B1A7DA5080015E383 /* ExercisesIndexTableViewController.m in Sources */,
 				04582A611A7C5584007B35CC /* TypeViewController.m in Sources */,
 				04F82CEA1A7C823400954323 /* TiersTableViewController.m in Sources */,
 				04582A2E1A7C4A5A007B35CC /* ViewController.m in Sources */,
 				04582A2B1A7C4A5A007B35CC /* AppDelegate.m in Sources */,
+				04B23C101A7DA8530015E383 /* Exercise.m in Sources */,
 				04582A281A7C4A5A007B35CC /* main.m in Sources */,
 				04F82CED1A7C86D600954323 /* TypeTableViewController.m in Sources */,
-				04F82CF01A7C8B3100954323 /* TiersIndexTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
